@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Music Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="home-container">
+        <h1>Welcome to Music Prediction</h1>
+        <p>Use our model to predict if your song is repeated based on its features.</p>
+        <a href="{% url 'predict' %}" class="btn">Get Started</a>
+        <!-- Optional: Add an image below the button -->
+       
+    </div>
+    <footer>
+        <p>&copy; 2025 Created by Ruttvik Padhara</p>
+    </footer>
+</body>
+</html>
